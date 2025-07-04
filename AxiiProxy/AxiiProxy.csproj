@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageId>AxiiProxy</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>BigSmokeKurva</Authors>
+        <Description>Implements a custom proxy server with client authentication support and the ability to operate as an intermediate proxy via SOCKS5 or HTTP.</Description>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.6"/>
+    </ItemGroup>
+
+</Project>
