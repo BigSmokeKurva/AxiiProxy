@@ -9,6 +9,14 @@ This solution was created due to the lack of working proxy servers in C# with up
 
 I tried using [Titanium Web Proxy](https://github.com/justcoding121/titanium-web-proxy), but it behaves unstably on Linux.
 
+### Installation
+
+To install the package, run:
+
+```bash
+dotnet add package AxiiProxy --version 1.0.0
+```
+
 ### Usage
 
 #### Creating a server without a proxy (proxying through the current IP)
@@ -37,6 +45,14 @@ proxyServer.SetProxy(new ProxySettings
 Это решение было создано из-за отсутствия рабочих прокси-серверов на C# с поддержкой upstream прокси и стабильной работой в Linux.
 
 Я пытался использовать [Titanium Web Proxy](https://github.com/justcoding121/titanium-web-proxy), но он ведет себя нестабильно на Linux.
+
+### Установка
+
+Для установки пакета выполните команду:
+
+```bash
+dotnet add package AxiiProxy --version 1.0.0
+```
 
 ### Использование
 
