@@ -9,6 +9,8 @@
         <Authors>BigSmokeKurva</Authors>
         <Description>Implements a custom proxy server with client authentication support and the ability to operate as an intermediate proxy via SOCKS5 or HTTP.</Description>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/BigSmokeKurva/AxiiProxy</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
